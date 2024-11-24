@@ -20,7 +20,7 @@ export function ContactSection() {
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Let's discuss your next project or collaboration opportunity.
+            Let&apos;s discuss your next project or collaboration opportunity.
           </p>
         </motion.div>
 
@@ -69,7 +69,7 @@ export function ContactSection() {
               <CardHeader>
                 <CardTitle>Send a Message</CardTitle>
                 <CardDescription>
-                  I'll get back to you as soon as possible.
+                  I&apos;ll get back to you as soon as possible.
                 </CardDescription>
               </CardHeader>
               <CardContent>

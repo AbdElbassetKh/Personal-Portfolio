@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Star } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -65,7 +66,7 @@ export function ProjectsSection() {
               <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="aspect-video relative overflow-hidden rounded-lg mb-4">
-                    <img
+                    <image
                       src={project.image}
                       alt={project.title}
                       className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-300"
