@@ -66,11 +66,12 @@ export function ProjectsSection() {
               <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="aspect-video relative overflow-hidden rounded-lg mb-4">
-                    <image
-                      src={project.image}
-                      alt={project.title}
-                      className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-300"
-                    />
+                  <Image
+                  src={project.image}
+                  alt={project.title}
+                  className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-300"
+                  layout="fill" // Optional: adjusts the behavior of the image sizing
+                />
                   </div>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
